@@ -1,4 +1,5 @@
-# AI Coding Agent 👾
+# CodeScout 👾
+### A lightweight autonomous AI coding agent for the command line
 
 A toy version of tools like Claude Code, Cursor, and OpenCode — a command-line AI agent that can explore a codebase, read and write files, and execute Python code to complete tasks, powered by free models via [OpenRouter](https://openrouter.ai/).
 
