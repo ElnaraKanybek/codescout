@@ -1,7 +1,7 @@
 # CodeScout 👾
 ### A lightweight autonomous AI coding agent for the command line
 
-A toy version of tools like Claude Code, Cursor, and OpenCode — a command-line AI agent that can explore a codebase, read and write files, and execute Python code to complete tasks, powered by free models via [OpenRouter](https://openrouter.ai/).
+A toy version of tools like Claude Code, Cursor, and OpenCode — a command-line AI agent that can explore a codebase, read and write files, and execute Python code to complete tasks, powered by the [Google Gemini API](https://ai.google.dev/).
 
 ## How it works
 
@@ -29,10 +29,12 @@ All file operations are scoped to a fixed working directory (`./calculator`) for
    uv sync
 ```
 
-2. Get a free API key from [OpenRouter](https://openrouter.ai/keys).
+2. Get a free API key from [Google AI Studio](https://aistudio.google.com/apikey).
 
 3. Create a `.env` file in the project root:
-
+```
+   GEMINI_API_KEY="your_api_key_here"
+```
 
 ## Usage
 
